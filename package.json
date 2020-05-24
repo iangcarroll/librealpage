@@ -1,0 +1,10 @@
+{
+  "name": "librp",
+  "version": "1.0.0",
+  "description": "Unofficial interface for generating RP API tokens.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": ""
+}
