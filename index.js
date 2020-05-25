@@ -1,3 +1,5 @@
+const btoa = require('btoa');
+
 var n = null;
 
 function r(e) {
@@ -143,7 +145,7 @@ var t = function(a, b) {
 }
 
 exports.getToken = function(siteID, userAgent) {
-    return siteID ? (false || (n = window.btoa(o(1) + r(siteID) + o(3) + r(userAgent) + o(5) + window.btoa((new Date).getTime().toString()) + o(7)),
+    return siteID ? (false || (n = btoa(o(1) + r(siteID) + o(3) + r(userAgent) + o(5) + btoa((new Date).getTime().toString()) + o(7)),
     t(function() {
         n = null
     }, 9e5)),
